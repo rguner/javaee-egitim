@@ -14,6 +14,6 @@ public class MyRest {
     @GET
     public String greet() {
         System.out.println("rest /hello isteği");
-        return "Merhaba Dünya";
+        return "Merhaba Dünya..";
     }
 }
