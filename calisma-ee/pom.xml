@@ -19,16 +19,24 @@
 
     <dependencies>
         <dependency>
+            <!-- rest -->
             <groupId>javax.ws.rs</groupId>
             <artifactId>javax.ws.rs-api</artifactId>
             <version>2.1.1</version>
             <scope>provided</scope>
         </dependency>
+        <!-- servlet -->
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
             <scope>provided</scope>
+        </dependency>
+        <!--  jaxws -->
+        <dependency>
+            <groupId>javax.jws</groupId>
+            <artifactId>javax.jws-api</artifactId>
+            <version>1.1</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -41,6 +49,11 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>jakarta.validation</groupId>
+            <artifactId>jakarta.validation-api</artifactId>
+            <version>2.0.2</version>
         </dependency>
     </dependencies>
 
